@@ -207,9 +207,9 @@ blockquote {
 
 .banner-image {
   width: 100%;
-  height: 318px;
+  min-height: 360px;
   border: 6px solid #fff;
-  background: #ddd url('landing.jpg') center / cover no-repeat;
+  background: #fff url('landing.jpg') center / contain no-repeat;
 }
 
 /* Right side: headline + call to action */
@@ -559,7 +559,7 @@ blockquote {
   }
 
   .banner-image {
-    height: 220px;
+    min-height: 150px;
   }
 }
 
